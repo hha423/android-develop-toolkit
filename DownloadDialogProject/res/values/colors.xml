@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 白色 -->
+    <color name="white">#ffffffff</color>
+
+    <!-- 深黑，常用文字颜色 -->
+    <color name="title">#ff1d3c4d</color>
+
+</resources>
