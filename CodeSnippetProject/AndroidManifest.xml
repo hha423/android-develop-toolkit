@@ -32,7 +32,8 @@
         android:targetPackage="com.allthelucky.examples" >
     </instrumentation>
 
-    <uses-sdk android:minSdkVersion="8" />
+    <uses-sdk android:minSdkVersion="8" 
+        android:targetSdkVersion="18"/>
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -54,7 +55,7 @@
         </activity>
 
         <activity-alias
-            android:name="慧支付"
+            android:name="Shortcut"
             android:targetActivity="com.allthelucky.examples.shortcut.AddShotcutActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
@@ -63,14 +64,6 @@
             </intent-filter>
         </activity-alias>
 
-        <!-- aidl -->
-        <service android:name="cn.winfirm.adiltest.CommandService" >
-            <intent-filter>
-                <action android:name="cn.winfirm.adiltest.CommandService" />
-
-                <category android:name="android.intent.category.default" />
-            </intent-filter>
-        </service>
 
         <!-- servicebind -->
         <service android:name="com.winfirm.examples.activity.service.InfoService" >
