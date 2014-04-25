@@ -1,13 +1,18 @@
-package com.allthelucky.touchmoint;
+package com.allthelucky.touchmonit;
+
+import com.allthelucky.touchmoint.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 
 public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		TouchMonitLayout layout=new TouchMonitLayout(this);
+		layout.addView(LayoutInflater.from(this).inflate(R.layout.activity_main, null));
+		setContentView(layout);
 	}
 	
 	public void onBackPressed() {

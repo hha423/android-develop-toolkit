@@ -1,4 +1,4 @@
-package com.allthelucky.touchmoint;
+package com.allthelucky.touchmonit;
 
 import android.util.Log;
 
