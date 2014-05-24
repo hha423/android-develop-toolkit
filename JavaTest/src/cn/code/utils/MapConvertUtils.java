@@ -1,7 +1,7 @@
 package cn.code.utils;
 import java.io.ByteArrayOutputStream;
 
-public class ConvertUtils {
+public class MapConvertUtils {
     //test
     public static void main(String[] args) {
        String x=decodeBase64("MTE0LjI5NzY4MzU1MDc5");
@@ -30,7 +30,7 @@ public class ConvertUtils {
    -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,  
    41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1 };  
   
-   ConvertUtils() {}  
+   MapConvertUtils() {}  
    
    /**
     * @param lat
