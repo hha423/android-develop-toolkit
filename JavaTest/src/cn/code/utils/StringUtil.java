@@ -679,5 +679,14 @@ public class StringUtil {
 		byte[] bd = hexDecode(hex);
 		System.out.println(new String(bd));
 	}
+	
+	public static String randomNo() {
+		StringBuffer sb=new StringBuffer();
+		Random r =new Random();
+		for(int i=0; i<8;i++) {
+			sb.append(r.nextInt(10));
+		}
+		return sb.toString();
+	}
 
 }
