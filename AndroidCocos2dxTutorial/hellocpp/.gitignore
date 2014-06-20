@@ -1,0 +1,10 @@
+.settings
+bin/
+gen/
+obj/
+cocos2dx/
+extensions/
+scripting/
+Classes/
+Includes/
+libs/armeabi
