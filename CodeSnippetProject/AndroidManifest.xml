@@ -75,7 +75,7 @@
         </service>
 
         <!-- service -->
-        <service android:name="com.winfirm.examples.activity.service.CheckServiceckServiceheckServiceckService"
+        <service android:name="com.winfirm.examples.activity.service.CheckService"
             android:enabled="true" />
 
         <!-- broadcast -->

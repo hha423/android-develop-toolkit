@@ -40,5 +40,29 @@ public class WorkSpace extends ViewGroup {
 				child.layout(10, 10, child.getMeasuredWidth(), child.getMeasuredHeight());
 		}
 	}
+	
+/*	@Override
+	protected void onLayout(boolean changed, int l, int t, int r, int b) {
+		if (changed) {//vertical
+			int childTop = 0;
+			final int childCount = getChildCount();
+			for (int i = 0; i < childCount; i++) {
+				final View childView = getChildAt(i);
+				final int childHeight = childView.getMeasuredHeight();
+				childView.layout(0, childTop, childView.getMeasuredWidth(), childTop+childHeight);
+				childTop += childHeight;
+			}
+		}
+	}*/
+	
+	@Override
+	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+		final int count = getChildCount();
+
+		for (int i = 0; i < count; i++) {
+			getChildAt(i).measure(widthMeasureSpec, heightMeasureSpec);
+		}
+	}
 
 }
