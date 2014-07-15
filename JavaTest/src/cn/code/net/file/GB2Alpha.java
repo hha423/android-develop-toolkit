@@ -90,7 +90,8 @@ public class GB2Alpha{
 
     public static void main(String[] args) {
         GB2Alpha convert = new GB2Alpha();
-        System.out.println(convert.String2Alpha("台北"));
+        System.out.println(convert.String2Alpha("山西"));
+        System.out.println(convert.String2Alpha("陕西"));
         System.out.println(convert.String2Alpha("吴广").toLowerCase());
         return;
     }
