@@ -4,6 +4,9 @@ import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
+import cn.code.alogrithon.base64.BASE64Decoder;
+import cn.code.alogrithon.base64.BASE64Encoder;
+
 public class AESHelper {
 
 	private static SecretKey secretKey = null;// key对象

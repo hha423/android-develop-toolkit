@@ -1,4 +1,4 @@
-package cn.code.alogrithon.aes;
+package cn.code.alogrithon.base64;
 /*
     2    * Copyright (c) 1995, 2004, Oracle and/or its affiliates. All rights reserved.
     3    * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.

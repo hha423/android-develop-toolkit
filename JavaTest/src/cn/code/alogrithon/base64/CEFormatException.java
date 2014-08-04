@@ -1,4 +1,4 @@
-package cn.code.alogrithon.aes;
+package cn.code.alogrithon.base64;
 
 import java.io.IOException;
 
