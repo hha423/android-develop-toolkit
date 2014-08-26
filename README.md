@@ -1,8 +1,6 @@
 android-learning-project
 ===============================================
 
-Android practicing projects in development work.
-
 AidlClientProject: AIDL客户端测试程序。
 
 AidlServerProject: AIDL服务端测试程序。
